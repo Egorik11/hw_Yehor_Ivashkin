@@ -41,6 +41,6 @@ authorsBook.forEach((autor, index) => {
   ${index + 1}. «${autor.product}» - ${autor.fullName};<br />
   <a target="_blank" style="${styleForLink}" href="${autor.link}">${
     autor.link
-  }</a> <br />
+  }</a><br />
   </p>`;
 });
